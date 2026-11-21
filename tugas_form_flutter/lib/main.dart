@@ -127,18 +127,18 @@ void kirimData() {
       ),
 
       RadioListTile(
-        value: "Laki-Laki",
+        value: "Perempuan",
         groupValue: _jk,
-        title: const Text("Laki-Laki"),
+        title: const Text("Perempuan"),
         onChanged: (value) {
           _pilihJk(value.toString());
         },
       ),
 
       RadioListTile(
-        value: "Perempuan",
+        value: "Laki-laki",
         groupValue: _jk,
-        title: const Text("Perempuan"),
+        title: const Text("Laki-laki"),
         onChanged: (value) {
           _pilihJk(value.toString());
         },
