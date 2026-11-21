@@ -83,7 +83,7 @@ void kirimData() {
       appBar: AppBar(
         leading: Icon(Icons.list),
         title: Text("Data Diri"),
-        backgroundColor:Colors.teal,
+        backgroundColor:Color.fromARGB(255, 105, 153, 211),
       ),
       body: Container(
         padding: const EdgeInsets.all(10.0),
